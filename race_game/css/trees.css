@@ -1,0 +1,32 @@
+#left,#right{
+  width: 200px;
+  height: 100%;
+  /* background-color: green; */
+  display: inline-block;
+  background-image: url(../images/grass.png);
+  position: relative;
+}
+#left #trees_left{
+  /* border: 1px solid red; */
+  background-image: url(../images/tree1.png);
+  background-size: contain;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  left: 50%;
+  margin-left: -60px;
+  /* height: 100%; */
+}
+#right #trees_right{
+  /* border: 1px solid red; */
+  background-image: url(../images/tree1.png);
+  background-size: contain;
+  width: 120px;
+  height: 100%;
+  position: absolute;
+  /* bottom: 0; */
+  right: 50%;
+  margin-right: -60px;
+  /* height: 100%; */
+}
